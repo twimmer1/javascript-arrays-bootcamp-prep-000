@@ -24,6 +24,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 function accessElementInArray(array, index) {
+<<<<<<< HEAD
   return array[index]
 }
 
@@ -45,4 +46,7 @@ function destructivelyRemoveElementFromEndOfArray (array) {
 function removeElementFromEndOfArray(array) {
   var array2 = array.slice(0, -1)
   return array2
+=======
+  return array[3]
+>>>>>>> b7b63371f83522e8e0bc2cdfa5700cc62a636b63
 }
